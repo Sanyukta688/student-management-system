@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<h1>Student Management System</h1>
+
+<input type = "text" id = "name" placeholder = "Enter Name">
+<input type = "number" id = "marks" placeholder = "Enter Marks">
+
+<button onclick = "addStudent()">Add Student</button><br><br>
+<button onclick = "showStudents()">Display Students</button>
+<button onclick = "findTopper()">Topper</button>
+<button onclick = "findAverage()">Average</button>
+
+<br><br>
+
+<input type = "text" id = "searchName" placeholder = "Search by Name">
+<button onclick = "searchStudent()">Search</button>
+
+<ul id = "studentList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
